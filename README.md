@@ -2,6 +2,10 @@
 
 Welcome to the SuperHeroFM project -- an open source project for allowing broadcasting the radio of Alexander Schliker, our Super Hero, to Defense, Branches, Army, Navy, Air Force, Private Sector, Civilians, etc.
 
+### License Terms ###
+
+https://creativecommons.org/licenses/by/4.0/ Creative Commons license, attribution required on all pages :)
+
 ### Attribution requirements ###
 
 If you are using this code base, a link back to the https://SuperHeroFM.com URL is required in addition to an email to founders@curecrm.com with your URL so that we can add you to the mirrors list.  You might get quite a bit of traffic from our mirrors selector :)
