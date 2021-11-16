@@ -1,6 +1,6 @@
-# ANONYPROXIES WEB PROXY - README #
+# SuperHeroFM - README #
 
-Welcome to the SuperHeroFM project -- an open source project for allowing the world to safely and securely surf the internet through tunneled proxy connections of all types -- above the auspices of the Golden Ticket, Ticket to Gold and Disabled to Gold.
+Welcome to the SuperHeroFM project -- an open source project for allowing broadcasting the radio of Alexander Schliker, our Super Hero, to Defense, Branches, Army, Navy, Air Force, Private Sector, Civilians, etc.
 
 ### Attribution requirements ###
 
