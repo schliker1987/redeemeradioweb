@@ -1,0 +1,11 @@
+ssl/*
+ssl/
+ssl
+*.cer*
+*.cer
+cacerts*
+vpn/
+vpn
+vpn/*
+vpn*
+.cer

@@ -1,0 +1,4 @@
+apt-get install nginx php5-common php5-cli php5-fpm postfix mailutils fcgiwrap libnet-ssleay-perl 
+sudo apt-get install php7.2-fpm
+
+certbot --nginx -d anonyproxies.com -d www.anonyproxies.com -d anonyproxi.es -d www.anonyproxi.es

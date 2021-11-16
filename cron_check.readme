@@ -1,0 +1,5 @@
+# run command:
+crontab -e
+
+# add the following line via nano:
+0 * * * * cd /home/anonyproxies/anonyweb/ && python ./cron_check.py
