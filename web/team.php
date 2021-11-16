@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SuperHeroFM - Free web proxy, Free Anonymous VPN, Free anonymous surfing, IP protection, Secret surfing, Protect your internet freedoms!</title>
+    <title>SuperHeroFM</title>
 	
     <!-- Bootstrap Core CSS -->
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
@@ -38,6 +38,14 @@
     
     <!-- Load the different js libraries for the different scripts -->
 	<script src="/a2/main.js"></script>
+    
+    <style>
+        ul[dir="auto"] {
+            text-align:left;
+            
+        }
+    
+    </style>
 	
 	<script type="text/javascript">
 		
@@ -129,7 +137,7 @@
                     <i class="glyphicon glyphicon-align-justify" style='color: #fff;'></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="/">
-                    <i class="glyphicon glyphicon-lock"></i>  <span class="light">Anony</span>Proxies
+                    <i class="glyphicon glyphicon-lock"></i>  <span class="light">SuperHero</span>FM
                 </a>
             </div>
 
@@ -142,14 +150,6 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="/#about">About</a>
-                    </li>
-                   	
-                   	<li>
-                        <a class="page-scroll" href="/#anonymailer">Anony<b>Mailer</b></a>
-                    </li>
-                   	
-                    <li>
-                        <a class="page-scroll" href="/#vpn">Anony<b>VPN</b></a>
                     </li>
                    
                     <li>
@@ -194,7 +194,7 @@
                                 <li>Jake</li>
                                 <li>Teddy R.</li>
                                 <li>Pauly Graham</li>
-                                <li>Mikey Arrington (co-Founder)</li>
+                                <li>Mikey Arrington</li>
                                 <li>Austin Jones</li>
                                 <li>Mike Adams</li>
                                 <li>LBJ</li>
@@ -254,8 +254,8 @@
                                 <li>Whitehouse.com</li>
                                 <li>Gerald F. Jr Jr Jr Jr</li>
                                 <li>Kenedy Jr Jr Jr</li>
-                                <li>Larry Page (Co-Founder)</li>
-                                <li>Sergey Brin (Co-Founder)</li>
+                                <li>Larry Page</li>
+                                <li>Sergey Brin</li>
                                 <li>Emil Gilliam</li>
                                 <li>Gerald F. Jr Jr Jr Jr Jr</li>
                                 <li>Teddy Jr Jr</li>
@@ -305,7 +305,7 @@
                                 <li>Jefferson Jr Jr Jr</li>
                                 <li>Biden Sr Sr</li>
                                 <li>Joseph Stalin Sr</li>
-                                <li>PE Alexander Schliker (co-Founder)</li>
+                                <li>PE Alexander Schliker (Founder)</li>
                                 <li>AWStats</li>
                                 <li>Richie Rich</li>
                                 <li>Moses Rayhawk Sr Sr</li>

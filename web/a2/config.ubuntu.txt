@@ -1,0 +1,2 @@
+apt-get install php5-fpm php5
+apt-get install curl php5-curl

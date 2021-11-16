@@ -680,7 +680,7 @@
         <div class="vpn-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Mailing list</h2>
+                    <h2>Listen with VPN privacy</h2>
 
                     <!-- <p id='1weeklyvpn-windows'>
                         <i>New</i>! Need <b>Windows Phone VPN</b>?
@@ -690,7 +690,7 @@
 
                     </p> -->
 
-                    <p>Join our mailing list subject to <a href='#terms' class='page-scroll btn btn-default'>Terms</a>
+                    <p>Listen to use while using our VPN.  Just connect via your computer's VPN settings below then simply open up your browser to hear our audio.  Supporting web ports 80 & 443.  Subject to <a href='#terms' class='page-scroll btn btn-default'>Terms</a>
                     </p>
 
                     <div class="input-group">
