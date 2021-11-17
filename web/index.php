@@ -558,6 +558,14 @@
                             World's most amazing radio station featuring <a href="https://alexanderschliker.com/?ref=superherofm.com" class='page-scroll btn btn-default'>Alexander Schliker</a>, a man that flies as your host! Subject to <a href='#terms' class='page-scroll btn btn-default'>Terms</a> above the auspices of Golden Ticket, Ticket to Gold and Disabled to Gold.
 
                         </p>
+                        
+                        <p>
+                        
+                            <audio controls autoplay loop>
+                                  <source src="https://superherofm.com/live.mp3">
+                            </audio>
+                        
+                        </p>
 
                         <form id='global_form' action='#' onsubmit='SuperHeroFM.init_onsubmit(); return false;' method='post'>
 
