@@ -562,7 +562,7 @@
                         <p>
                         
                             <audio controls autoplay loop>
-                                  <source src="https://superherofm.com/live.mp3">
+                                  <source src="/live.m3u">
                             </audio>
                         
                         </p>
