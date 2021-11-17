@@ -1012,7 +1012,17 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; <a href='https://www.superherofm.com'>SuperHeroFM.com</a>: free web proxy, http proxy & VPN! <!-- Attribution link to SuperHeroFM.com is required! Email founders@superherofm.com and we can add your website to our list of mirrors sending you ample traffic! --> <a href='privacy.html'>Privacy policy</a>. <a href='/team.html'>Our team</a>.</p>
+            <p>
+            	Copyright &copy; <a href='https://www.superherofm.com'>SuperHeroFM.com</a>: free web proxy, http proxy & VPN! 
+                <!-- Attribution link to SuperHeroFM.com is required! Email founders@superherofm.com and we can add your website to our list of mirrors sending you ample traffic! --> <a href='privacy.html'>Privacy policy</a>. <a href='/team.html'>Our team</a>.
+                <br/>
+                <a href='https://mixxx.org'>
+                	<img style='max-height: 18.72px; margin-right: 12px;' title='Sponsored by Mixxx' border='0' src='static/img/mixxx_logo.png'/>
+                </a>
+                <a href='https://icecast.org'>
+                	<img style='max-height: 18.72px;' title='Sponsored by IceCast2' border='0' src='static/img/icecast_logo.png'/>
+                </a>
+            </p>
         </div>
     </footer>
 
