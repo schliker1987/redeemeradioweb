@@ -502,7 +502,7 @@
 
 
                 <a class="navbar-brand page-scroll" href="#page-top" style=''>
-                    <i style='font-size:.9em;top:0px;left: 2px;position:relative;' class="glyphicon glyphicon-sound">&#x1F50A;</i>  <span style='color:gold;'>Super</span><span style='color:;'>Hero</span><span style='color:gold;'>FM</span>
+                    <i style='font-size:.9em;top:0px;left:2px;position:relative;' class="glyphicon glyphicon-sound">&#x1F50A;</i>  <span style='color:gold;'>Super</span><span style='color:;'>Hero</span><span style='color:gold;'>FM</span>
                 </a>
             </div>
 
@@ -602,6 +602,138 @@
                             -->
 
 
+                        </form>
+
+                        
+                        
+                        <form id='phproxy_plus_plus' action="/phproxy++/includes/process.php?action=update" method="post" style='display: none;' class="form">
+                            <input type="text" name="u" id="input" size="40" class="textbox">
+                            <input type="submit" value="Go" class="button">&nbsp; [<a style="cursor:pointer;" onclick="document.getElementById('options').style.display=(document.getElementById('options').style.display=='none'?'':'none')">options</a>]
+                            <ul id="options" style="display: none;">
+                                <li>
+                                    <input type="checkbox" name="encodeURL" id="encodeURL" checked="checked">
+                                    <label for="encodeURL" class="tooltip" onmouseover="tooltip('Encrypts the URL of the page you are viewing so that it does not contain the target site in plaintext.')" onmouseout="exit();">Encrypt URL</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="encodePage" id="encodePage">
+                                    <label for="encodePage" class="tooltip" onmouseover="tooltip('Helps avoid filters by encrypting the page before sending it and decrypting it with javascript once received.')" onmouseout="exit();">Encrypt Page</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="allowCookies" id="allowCookies" checked="checked">
+                                    <label for="allowCookies" class="tooltip" onmouseover="tooltip('Cookies may be required on interactive websites (especially where you need to log in) but advertisers also use cookies to track your browsing habits.')" onmouseout="exit();">Allow Cookies</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="stripJS" id="stripJS" checked="checked">
+                                    <label for="stripJS" class="tooltip" onmouseover="tooltip('Remove scripts to protect your anonymity and speed up page loads. However, not all sites will provide an HTML-only alternative. (Recommended)')" onmouseout="exit();">Remove Scripts</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="stripObjects" id="stripObjects" checked="checked">
+                                    <label for="stripObjects" class="tooltip" onmouseover="tooltip('You can increase page load times by removing unnecessary Flash, Java and other objects. If not removed, these may also compromise your anonymity.')" onmouseout="exit();">Remove Objects</label>
+                                </li>
+                            </ul>
+                            <br style="clear: both;">
+                        </form>
+
+                        <form id='phproxy' method="post" action="/phproxy/index.php" onsubmit="" style='display: none;'>
+                            <ul id="form">
+                                <li id="address_bar">
+                                    <label>Web Address
+                                        <input id="address_box" type="text" name="q" value="" onfocus="this.select()">
+                                    </label>
+                                    <input id="go" type="submit" value="Go">
+                                </li>
+                                <li class="option">
+                                    <label>
+                                        <input type="checkbox" name="hl[include_form]" checked="checked">Include mini URL-form on every page</label>
+                                </li>
+                                <li class="option">
+                                    <label>
+                                        <input type="checkbox" name="hl[remove_scripts]" checked="checked">Remove client-side scripting (i.e JavaScript)</label>
+                                </li>
+                                <li class="option">
+                                    <label>
+                                        <input type="checkbox" name="hl[accept_cookies]" checked="checked">Allow cookies to be stored</label>
+                                </li>
+                                <li class="option">
+                                    <label>
+                                        <input type="checkbox" name="hl[show_images]" checked="checked">Show images on browsed pages</label>
+                                </li>
+                                <li class="option">
+                                    <label>
+                                        <input type="checkbox" name="hl[show_referer]" checked="checked">Show actual referring Website</label>
+                                </li>
+                                <li class="option">
+                                    <label>
+                                        <input type="checkbox" name="hl[rotate13]">Use ROT13 encoding on the address</label>
+                                </li>
+                                <li class="option">
+                                    <label>
+                                        <input type="checkbox" name="hl[base64_encode]" checked="checked">Use base64 encodng on the address</label>
+                                </li>
+                                <li class="option">
+                                    <label>
+                                        <input type="checkbox" name="hl[strip_meta]" checked="checked">Strip meta information tags from pages</label>
+                                </li>
+                                <li class="option">
+                                    <label>
+                                        <input type="checkbox" name="hl[strip_title]">Strip page title</label>
+                                </li>
+                                <li class="option">
+                                    <label>
+                                        <input type="checkbox" name="hl[session_cookies]" checked="checked">Store cookies for this session only</label>
+                                </li>
+                            </ul>
+                        </form>
+
+                        <form style='display:none;' id='cgiproxy' name="URLform" action="/cgiproxy/nph-proxy.cgi/en/20/x-proxy/start" method="post" onsubmit="return true;">
+                            <input name="URL" size="66" value="">
+                            <br>
+                            <input type="checkbox" id="rc" name="rc">
+                            <label for="rc">Remove all cookies (except certain proxy cookies)</label>
+                            <br>
+                            <input type="checkbox" id="rs" name="rs">
+                            <label for="rs">Remove all scripts (recommended for anonymity)</label>
+                            <br>
+                            <input type="checkbox" id="fa" name="fa">
+                            <label for="fa">Remove ads</label>
+                            <br>
+                            <input type="checkbox" id="br" name="br">
+                            <label for="br">Hide referrer information</label>
+                            <br>
+                            <input type="checkbox" id="if" name="if" checked="checked">
+                            <label for="if">Show URL entry form</label>
+
+                            <p>
+                                <input type="submit" value="   Begin browsing   ">
+                            </p>
+                        </form>
+
+                        <form id='glype' style='display:none;' action="/glype/includes/process.php?action=update" method="post" onsubmit="" class="form">
+                            <input type="text" name="u" id="input" style="width: 99%;" value="http://" class="textbox">
+                            <input type="submit" value="Go" class="button">&nbsp; [<a style="cursor:pointer;" onclick="document.getElementById('options').style.display=(document.getElementById('options').style.display=='none'?'':'none')">options</a>]
+                            <ul id="options" style="display: none;">
+                                <li>
+                                    <input type="checkbox" name="encodeURL" id="encodeURL" checked="checked">
+                                    <label for="encodeURL" class="tooltip" onmouseover="tooltip('Encrypts the URL of the page you are viewing so that it does not contain the target site in plaintext.')" onmouseout="exit();">Encrypt URL</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="encodePage" id="encodePage">
+                                    <label for="encodePage" class="tooltip" onmouseover="tooltip('Helps avoid filters by encrypting the page before sending it and decrypting it with javascript once received.')" onmouseout="exit();">Encrypt Page</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="allowCookies" id="allowCookies" checked="checked">
+                                    <label for="allowCookies" class="tooltip" onmouseover="tooltip('Cookies may be required on interactive websites (especially where you need to log in) but advertisers also use cookies to track your browsing habits.')" onmouseout="exit();">Allow Cookies</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="stripJS" id="stripJS" checked="checked">
+                                    <label for="stripJS" class="tooltip" onmouseover="tooltip('Remove scripts to protect your anonymity and speed up page loads. However, not all sites will provide an HTML-only alternative. (Recommended)')" onmouseout="exit();">Remove Scripts</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="stripObjects" id="stripObjects" checked="checked">
+                                    <label for="stripObjects" class="tooltip" onmouseover="tooltip('You can increase page load times by removing unnecessary Flash, Java and other objects. If not removed, these may also compromise your anonymity.')" onmouseout="exit();">Remove Objects</label>
+                                </li>
+                            </ul>
+                            <br style="clear: both;">
                         </form>
 
 
