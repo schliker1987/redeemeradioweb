@@ -2,3 +2,9 @@ apt-get install nginx php5-common php5-cli php5-fpm postfix mailutils fcgiwrap l
 sudo apt-get install php7.2-fpm
 
 certbot --nginx -d anonyproxies.com -d www.anonyproxies.com -d anonyproxi.es -d www.anonyproxi.es
+
+create CNAME file at github.com/superherofm/superheroweb with:
+
+git.superherofm.com within
+
+create the CNAME pointing to superherofm.com
