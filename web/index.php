@@ -1020,8 +1020,12 @@
                 	<img style='max-height: 18.72px; margin-right: 12px;' title='Sponsored by Mixxx' border='0' src='static/img/mixxx_logo.png'/>
                 </a>
                 <a href='https://icecast.org'>
-                	<img style='max-height: 18.72px;' title='Sponsored by IceCast2' border='0' src='static/img/icecast_logo.png'/>
+                	<img style='max-height: 18.72px; margin-right: 12px;' title='Sponsored by IceCast2' border='0' src='static/img/icecast_logo.png'/>
                 </a>
+                <a href='https://racknerd.com'>
+                	<img style='max-height: 18.72px;' title='Sponsored by RackNerd' border='0' src='static/img/racknerd_logo.png'/>
+                </a>
+                
             </p>
         </div>
     </footer>
@@ -1042,7 +1046,7 @@
         ga('create', 'UA-55265328-1', 'auto');
         ga('send', 'pageview');
     </script>
-
+	
     <div id='modal-login'>
         <a style='float: right;' class="close b-close"></a>
         <div class="bodyView">
