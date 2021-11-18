@@ -1,6 +1,6 @@
 # SuperHeroFM - README #
 
-Welcome to the SuperHeroFM project -- an open source project for allowing broadcasting the radio of Alexander Schliker, our Super Hero, to Defense, Branches, Army, Navy, Air Force, Private Sector, Civilians, etc.
+Welcome to the SuperHeroFM project -- an open source project for allowing broadcasting the radio of Alexander Schliker, our Super Hero who can fly, to Defense, Branches, Army, Navy, Air Force, Private Sector, Civilians, etc.
 
 ### License Terms ###
 
@@ -90,6 +90,12 @@ To join the team, introduce yourself by emailing founders@anonyproxies.com or re
 * A2
 * Glype
 * Squirrelmail
+* Protek
+* Mixxx
+* Icecast2
+* Johnson Jr Jr Sr Sr
+* Kennedy Squared Sr Sr Jr 
+* Protek N Jr
 * James Brown Jr Jr Jr Jr.
 * Teddy DR Jr Jr...
 * Kennedy Squared Sr Sr Sr Sr Sr
