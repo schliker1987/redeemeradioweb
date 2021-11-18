@@ -1,6 +1,6 @@
 # SuperHeroFM - README #
 
-Welcome to the SuperHeroFM project -- an open source project for allowing broadcasting the radio of Alexander Schliker, our Super Hero, to Defense, Branches, Army, Navy, Air Force, Private Sector, Civilians, etc.
+Welcome to the SuperHeroFM project -- an open source project for allowing broadcasting the radio of Alexander Schliker, our Super Hero who can fly, to Defense, Branches, Army, Navy, Air Force, Private Sector, Civilians, etc.
 
 ### License Terms ###
 
