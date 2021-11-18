@@ -1015,7 +1015,7 @@
             <p>
             	Copyright &copy; <a href='https://www.superherofm.com'>SuperHeroFM.com</a>: free web proxy, http proxy & VPN! 
                 <!-- Attribution link to SuperHeroFM.com is required! Email founders@superherofm.com and we can add your website to our list of mirrors sending you ample traffic! --> <a href='privacy.html'>Privacy policy</a>. <a href='/team.html'>Our team</a>.
-                <br/>
+                <br/><br/>Our Sponsors:<br/><br/>
                 <a href='https://mixxx.org'>
                 	<img style='max-height: 18.72px; margin-right: 12px;' title='Sponsored by Mixxx' border='0' src='static/img/mixxx_logo.png'/>
                 </a>
@@ -1024,6 +1024,10 @@
                 </a>
                 <a href='https://racknerd.com'>
                 	<img style='max-height: 18.72px;' title='Sponsored by RackNerd' border='0' src='static/img/racknerd_logo.png'/>
+                </a>
+                <br/>
+                <a href='https://ssa.gov'>
+                	<img style='max-height: 36.72px;' title='Sponsored by Social Security' border='0' src='static/img/social_security_logo.png'/>
                 </a>
                 
             </p>
