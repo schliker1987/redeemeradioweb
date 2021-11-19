@@ -827,12 +827,7 @@
                      
                     <h2>Anonymous Proxy access while listening to SuperHeroFM </h2>
 
-                    <p id='1weeklyvpn-windows'>
-                        <i>New</i>! Need a <b>Windows Phone Proxy</b>?
-                    </p>
-
                     <p>
-
                         Access the Phone Proxy settings under your "All Settings" section under "WLAN", select a network and enter the following settings:
 
                         <br/>
@@ -845,13 +840,7 @@
                         <button id='btn-1weeklyproxy-access' style='display:;' onclick='$("#modal-1weeklyproxy-access").bPopup({follow: false}); return false;' class='btn btn-blue' type='button'>Proxy Settings</button>
 
                     </p>
-
-                    <p>
-
-
-
-                    </p>
-
+					
                 </div>
             </div>
         </div>
@@ -1068,7 +1057,10 @@
                 </a>
                 <br/>
                 <a href='https://ssa.gov'>
-                	<img style='max-height: 36.72px;' title='Sponsored by Social Security' border='0' src='static/img/social_security_logo.png'/>
+                	<img style='max-height: 36.72px; margin-right:12px;' title='Sponsored by Social Security' border='0' src='static/img/social_security_logo.png'/>
+                </a>
+                <a href='https://snap.gov'>
+                	<img style='max-height: 36.72px; ' title='Sponsored by Food Stamps' border='0' src='static/img/snap_logo.png'/>
                 </a>
                 
             </p>
