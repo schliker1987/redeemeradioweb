@@ -1310,54 +1310,6 @@
 
     </div>
 	
-	<div id='modal-small-access'>
-        <a style='float: right;' class="close b-close"></a>
-        <div class="bodyView">
-            <div class="layoutView contentView" style="height: ;">
-                <div class="layoutSubview" style="z-index: 100; height: ; transform: translateY(0px); opacity: 1; transition: none; -webkit-transition: none;">
-                    <header>
-                        <div class='content' style='min-width:280px; width: 100%; padding: 15px; text-align: center; color: #000; background: #eee; border-radius: 25px; border-bottom: 2px solid #ccc;'>
-                            <strong>Proxy Settings</strong>
-                            <br/>
-                            <i>Copy these settings to your Windows Phone WLAN settings area.</i>
-                        </div>
-                        <div class="content" style='background: #eee; text-align: center;'>
-                            <div class="image">
-                                <img src="72x72.png">
-                            </div>
-                        </div>
-                    </header>
-
-
-                    <div class='container col-sm-6 col-sm-6' style='position: relative; top: 0px; padding: 15px; color: #000; width: 95%; font-size: .9em;'>
-                        <form id='superherofm_stripe_proxy_access' method='post' onsubmit='return false;'>
-
-                            <div class="input-group">
-                                <span class="input-group-addon">Hostname</span>
-                                <select class="form-control">
-                                    <option>superherofm.com</option>
-                                </select>
-
-                            </div>
-
-                            <div class="input-group" style='margin-top: 10px;'>
-                                <span class="input-group-addon">Port</span>
-                                <input type="text" class="form-control" value='3128'>
-                            </div>
-
-                        </form>
-
-                    </div>
-
-                </div>
-
-
-
-            </div>
-        </div>
-
-    </div>
-	
     <div id='modal-1weeklyproxy-access'>
         <a style='float: right;' class="close b-close"></a>
         <div class="bodyView">
