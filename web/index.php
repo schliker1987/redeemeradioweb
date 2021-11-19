@@ -2,13 +2,18 @@
 <html lang="en">
 
 <head>
-
+	
+	<!-- United States FBI Army Navy Air Force thx for monitoring this 
+	computer to keep hackers away.  thanks for restoring files into 
+	my ~/ folder that have any kind of over-rides, replacements, 
+	erasures, etc. from hackers  -->
+	
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
+	
     <title>SuperHeroFM - Super Hero FM is the world's most amazing radio reaching out to Defense, Army, Navy, Air Force, Space Force, onwards!  Halleluyas guys, Halleluyas girls, Halleluyas Sir!</title>
 
     <!-- Bootstrap Core CSS -->
@@ -41,18 +46,21 @@
             display: inline;
             font-size: .9em;
         }
-        #modal-1weeklyproxy-access {
+        #modal-1weeklyproxy-access, .modal-access {
             border-radius: 25px;
             display: none;
             min-width: 280px;
             background: #fff;
             min-height: 220px;
         }
-        #modal-1weeklyproxy-access .form-control {
+        #modal-1weeklyproxy-access .form-control, .modal-access .form-control {
             min-width: 0;
             width: auto;
             display: inline;
             font-size: .9em;
+        }
+        .paypal-button-number-3 ! important {
+            display:none;
         }
         #modal-1weeklyvpn-access {
             border-radius: 25px;
@@ -499,8 +507,6 @@
 
                 </select>
 
-
-
                 <a class="navbar-brand page-scroll" href="#page-top" style=''>
                     <i style='font-size:.9em;top:0px;left:2px;position:relative;' class="glyphicon glyphicon-sound">&#x1F50A;</i>  <span style='color:gold;'>Super</span><span style='color:;'>Hero</span><span style='color:gold;'>FM</span>
                 </a>
@@ -757,6 +763,39 @@
             </div>
         </div>
     </header>
+    
+    <section id="enterprise_small_non_profit_personal" class="content-section text-center">
+        <div class="proxy-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+					
+					<!-- 
+                    <img id='anonyproxy-img' class='b-close' src='static/img/win.jpg' style='width: 270px; float: right; position: relative; top: -40px; ' />
+                    -->
+                     
+                    <h2>Create a streaming site with proxies for enterpise, small business, non-profit, or personal use</h2>
+
+                    <p>
+                        Use SuperHeroFM's code-base for your enterprise, small business, non-profit, or personal use above the auspices of the Golden Ticket, Ticket to Gold, Defense to Gold & Disabled to Gold.
+
+                        <br/>
+                        <br/>
+                        
+                        <!--
+                        <button id='btn-1weeklyproxy-subscribe' onclick='AnonyProxies.modal_stripe("#modal-stripe", "Subscribe for $1.33/week", "AnonyProxies <i>Windows Phone Proxy</i>", "1weeklyproxy"); return false;' class='btn btn-blue' type='button'>Subscribe for $1.33/week</button>
+                        -->
+                        <!--<button id='btn-1weeklyproxy-help' onclick='$("#anonyproxy-img").bPopup({follow: false}); return false;' class='btn btn-blue' type='button'>?</button>-->
+                        <button id='btn-enterprise-access' style='display:; margin-top:7px;' onclick='$("#modal-enterprise-access").bPopup({follow: false}); return false;' class='btn btn-blue' type='button'>Enterprise $18k-$36k/mo</button> <!-- $(".toggle-paypal").hide(); $("#toggle-enterprise-paypal").show(); $("#modal-enterprise-access").bPopup({follow: false}); -->
+                        <button id='btn-small-access' style='display:; margin-top:7px;' onclick='$("#modal-small-access").bPopup({follow: false}); return false;' class='btn btn-blue' type='button'>Small-business $8k-$18k/mo</button>
+                        <button id='btn-non_profit-access' style='display:; margin-top:7px;' onclick='$("#modal-non_profit-access").bPopup({follow: false}); return false;' class='btn btn-blue' type='button'>Non-profit $3k-$8k/mo</button>
+                        <button id='btn-personal-access' style='display:; margin-top:7px;' onclick='$("#modal-personal-access").bPopup({follow: false}); return false;' class='btn btn-blue' type='button'>Personal $1k-3k/mo</button>
+
+                    </p>
+					
+                </div>
+            </div>
+        </div>
+    </section>
     
     <!-- About Section -->
     <section id="about" class="container content-section text-center">
@@ -1131,7 +1170,194 @@
         </div>
 
     </div>
+	
+	<div id='modal-enterprise-access' class='modal-access' style='min-height: 370px;'>
+        <a style='float: right;' class="close b-close"></a>
+        <div class="bodyView">
+            <div class="layoutView contentView" style="height: ;">
+                <div class="layoutSubview" style="z-index: 100; height: ; transform: translateY(0px); opacity: 1; transition: none; -webkit-transition: none;">
+                    <header>
+                        <div class='content' style='min-width:280px; width: 100%; padding: 15px; text-align: center; color: #000; background: #eee; border-radius: 25px; border-bottom: 2px solid #ccc;'>
+                            <strong>Enterprise</strong>
+                            <br/>
+                            <i>Make a secure payment with Paypal</i>
+                        </div>
+                        <div class="content" style='background: #eee; text-align: center;'>
+                            <div class="image">
+                                <img src="72x72.png">
+                            </div>
+                        </div>
+                    </header>
 
+
+                    <div class='container col-sm-6 col-sm-6' style='position: relative; top: 0px; padding: 15px; color: #000; width: 95%; font-size: .9em; min-height: 210px;'>
+                        
+                       <div id='toggle-enterprise-paypal'>
+                            	<div id="smart-button-container" style='margin-top:0px;'>
+                                  <div style="text-align: center;">
+                                    <div style="margin-bottom: 0px;">
+                                      
+                                      <select id="item-options"><option value="Small Enterprise" price="18000">Small Enterprise - 18000 USD</option><option value="Medium Enterprise" price="27000">Medium Enterprise - 27000 USD</option><option value="Big Enterprise" price="36000">Big Enterprise - 36000 USD</option></select>
+                                      <select style="visibility: hidden" id="quantitySelect"></select>
+                                    </div>
+                                  <div id="paypal-button-container"></div>
+                                  </div>
+                                </div>
+                                <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+                                <script>
+                                  function initPayPalButton() {
+                                    var shipping = 0;
+                                    var itemOptions = document.querySelector("#smart-button-container #item-options");
+                                var quantity = parseInt();
+                                var quantitySelect = document.querySelector("#smart-button-container #quantitySelect");
+                                if (!isNaN(quantity)) {
+                                  quantitySelect.style.visibility = "visible";
+                                }
+                                var orderDescription = '';
+                                if(orderDescription === '') {
+                                  orderDescription = 'Item';
+                                }
+                                paypal.Buttons({
+                                  style: {
+                                    shape: 'rect',
+                                    color: 'gold',
+                                    layout: 'vertical',
+                                    label: 'paypal',
+                                    
+                                  },
+                                  createOrder: function(data, actions) {
+                                    var selectedItemDescription = itemOptions.options[itemOptions.selectedIndex].value;
+                                    var selectedItemPrice = parseFloat(itemOptions.options[itemOptions.selectedIndex].getAttribute("price"));
+                                    var tax = (0 === 0 || false) ? 0 : (selectedItemPrice * (parseFloat(0)/100));
+                                    if(quantitySelect.options.length > 0) {
+                                      quantity = parseInt(quantitySelect.options[quantitySelect.selectedIndex].value);
+                                    } else {
+                                      quantity = 1;
+                                    }
+                            
+                                    tax *= quantity;
+                                    tax = Math.round(tax * 100) / 100;
+                                    var priceTotal = quantity * selectedItemPrice + parseFloat(shipping) + tax;
+                                    priceTotal = Math.round(priceTotal * 100) / 100;
+                                    var itemTotalValue = Math.round((selectedItemPrice * quantity) * 100) / 100;
+                            
+                                    return actions.order.create({
+                                      purchase_units: [{
+                                        description: orderDescription,
+                                        amount: {
+                                          currency_code: 'USD',
+                                          value: priceTotal,
+                                          breakdown: {
+                                            item_total: {
+                                              currency_code: 'USD',
+                                              value: itemTotalValue,
+                                            },
+                                            shipping: {
+                                              currency_code: 'USD',
+                                              value: shipping,
+                                            },
+                                            tax_total: {
+                                              currency_code: 'USD',
+                                              value: tax,
+                                            }
+                                          }
+                                        },
+                                        items: [{
+                                          name: selectedItemDescription,
+                                          unit_amount: {
+                                            currency_code: 'USD',
+                                            value: selectedItemPrice,
+                                          },
+                                          quantity: quantity
+                                        }]
+                                      }]
+                                    });
+                                  },
+                                  onApprove: function(data, actions) {
+                                    return actions.order.capture().then(function(orderData) {
+                                      
+                                      // Full available details
+                                      console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+                            
+                                      // Show a success message within this page, e.g.
+                                      const element = document.getElementById('paypal-button-container');
+                                      element.innerHTML = '';
+                                      element.innerHTML = '<h3>Thank you for your payment!</h3>';
+                            
+                                      // Or go to another URL:  actions.redirect('thank_you.html');
+                            
+                                    });
+                                  },
+                                  onError: function(err) {
+                                    console.log(err);
+                                  },
+                                }).render('#paypal-button-container');
+                              }
+                              initPayPalButton();
+                                </script>
+                            
+                            </div>
+                                            
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+	
+	<div id='modal-small-access'>
+        <a style='float: right;' class="close b-close"></a>
+        <div class="bodyView">
+            <div class="layoutView contentView" style="height: ;">
+                <div class="layoutSubview" style="z-index: 100; height: ; transform: translateY(0px); opacity: 1; transition: none; -webkit-transition: none;">
+                    <header>
+                        <div class='content' style='min-width:280px; width: 100%; padding: 15px; text-align: center; color: #000; background: #eee; border-radius: 25px; border-bottom: 2px solid #ccc;'>
+                            <strong>Proxy Settings</strong>
+                            <br/>
+                            <i>Copy these settings to your Windows Phone WLAN settings area.</i>
+                        </div>
+                        <div class="content" style='background: #eee; text-align: center;'>
+                            <div class="image">
+                                <img src="72x72.png">
+                            </div>
+                        </div>
+                    </header>
+
+
+                    <div class='container col-sm-6 col-sm-6' style='position: relative; top: 0px; padding: 15px; color: #000; width: 95%; font-size: .9em;'>
+                        <form id='superherofm_stripe_proxy_access' method='post' onsubmit='return false;'>
+
+                            <div class="input-group">
+                                <span class="input-group-addon">Hostname</span>
+                                <select class="form-control">
+                                    <option>superherofm.com</option>
+                                </select>
+
+                            </div>
+
+                            <div class="input-group" style='margin-top: 10px;'>
+                                <span class="input-group-addon">Port</span>
+                                <input type="text" class="form-control" value='3128'>
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+	
     <div id='modal-1weeklyproxy-access'>
         <a style='float: right;' class="close b-close"></a>
         <div class="bodyView">
