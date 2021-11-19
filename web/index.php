@@ -1193,108 +1193,30 @@
                     <div class='container col-sm-6 col-sm-6' style='position: relative; top: 0px; padding: 15px; color: #000; width: 95%; font-size: .9em; min-height: 210px;'>
                         
                        <div id='toggle-enterprise-paypal'>
-                            	<div id="smart-button-container" style='margin-top:0px;'>
-                                  <div style="text-align: center;">
-                                    <div style="margin-bottom: 0px;">
-                                      
-                                      <select id="item-options"><option value="Small Enterprise" price="18000">Small Enterprise - 18000 USD</option><option value="Medium Enterprise" price="27000">Medium Enterprise - 27000 USD</option><option value="Big Enterprise" price="36000">Big Enterprise - 36000 USD</option></select>
-                                      <select style="visibility: hidden" id="quantitySelect"></select>
-                                    </div>
-                                  <div id="paypal-button-container"></div>
-                                  </div>
-                                </div>
-                                <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
-                                <script>
-                                  function initPayPalButton() {
-                                    var shipping = 0;
-                                    var itemOptions = document.querySelector("#smart-button-container #item-options");
-                                var quantity = parseInt();
-                                var quantitySelect = document.querySelector("#smart-button-container #quantitySelect");
-                                if (!isNaN(quantity)) {
-                                  quantitySelect.style.visibility = "visible";
-                                }
-                                var orderDescription = '';
-                                if(orderDescription === '') {
-                                  orderDescription = 'Item';
-                                }
-                                paypal.Buttons({
+                            
+                            <div id="paypal-button-container-P-7DT36697D7118993HMGMDDZA"></div>
+                            <script src="https://www.paypal.com/sdk/js?client-id=AYNYcxi41QL7wkNfYqc_e26wIVlDRZ-UUkkisur5Nwl5aLlgdeoLtKRyekUCPXJIDsilyNb51TeD_u9u&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+                            <script>
+                              paypal.Buttons({
                                   style: {
-                                    shape: 'rect',
-                                    color: 'gold',
-                                    layout: 'vertical',
-                                    label: 'paypal',
-                                    
+                                      shape: 'rect',
+                                      color: 'gold',
+                                      layout: 'vertical',
+                                      label: 'subscribe'
                                   },
-                                  createOrder: function(data, actions) {
-                                    var selectedItemDescription = itemOptions.options[itemOptions.selectedIndex].value;
-                                    var selectedItemPrice = parseFloat(itemOptions.options[itemOptions.selectedIndex].getAttribute("price"));
-                                    var tax = (0 === 0 || false) ? 0 : (selectedItemPrice * (parseFloat(0)/100));
-                                    if(quantitySelect.options.length > 0) {
-                                      quantity = parseInt(quantitySelect.options[quantitySelect.selectedIndex].value);
-                                    } else {
-                                      quantity = 1;
-                                    }
-                            
-                                    tax *= quantity;
-                                    tax = Math.round(tax * 100) / 100;
-                                    var priceTotal = quantity * selectedItemPrice + parseFloat(shipping) + tax;
-                                    priceTotal = Math.round(priceTotal * 100) / 100;
-                                    var itemTotalValue = Math.round((selectedItemPrice * quantity) * 100) / 100;
-                            
-                                    return actions.order.create({
-                                      purchase_units: [{
-                                        description: orderDescription,
-                                        amount: {
-                                          currency_code: 'USD',
-                                          value: priceTotal,
-                                          breakdown: {
-                                            item_total: {
-                                              currency_code: 'USD',
-                                              value: itemTotalValue,
-                                            },
-                                            shipping: {
-                                              currency_code: 'USD',
-                                              value: shipping,
-                                            },
-                                            tax_total: {
-                                              currency_code: 'USD',
-                                              value: tax,
-                                            }
-                                          }
-                                        },
-                                        items: [{
-                                          name: selectedItemDescription,
-                                          unit_amount: {
-                                            currency_code: 'USD',
-                                            value: selectedItemPrice,
-                                          },
-                                          quantity: quantity
-                                        }]
-                                      }]
+                                  createSubscription: function(data, actions) {
+                                    return actions.subscription.create({
+                                      /* Creates the subscription */
+                                      plan_id: 'P-7DT36697D7118993HMGMDDZA', //SuperHeroFM Enterprise
+                                      quantity: 1 // The quantity of the product for a subscription
                                     });
                                   },
                                   onApprove: function(data, actions) {
-                                    return actions.order.capture().then(function(orderData) {
-                                      
-                                      // Full available details
-                                      console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-                            
-                                      // Show a success message within this page, e.g.
-                                      const element = document.getElementById('paypal-button-container');
-                                      element.innerHTML = '';
-                                      element.innerHTML = '<h3>Thank you for your payment!</h3>';
-                            
-                                      // Or go to another URL:  actions.redirect('thank_you.html');
-                            
-                                    });
-                                  },
-                                  onError: function(err) {
-                                    console.log(err);
-                                  },
-                                }).render('#paypal-button-container');
-                              }
-                              initPayPalButton();
-                                </script>
+                                    alert(data.subscriptionID); // You can add optional success message for the subscriber here
+                                  }
+                              }).render('#paypal-button-container-P-7DT36697D7118993HMGMDDZA'); // Renders the PayPal button
+                            </script>	
+                            	
                             
                             </div>
                                             
