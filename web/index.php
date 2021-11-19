@@ -555,7 +555,9 @@
                         <h1 class="brand-heading" style='text-shadow:7px 2px #000;'><span style='color:gold;'>Super</span><span style='color:;'>Hero</span><span style='color:gold;'>FM</span></h1>
                         <p class="intro-text" style='text-shadow:2px 2px #000;'>
 
-                            World's most amazing radio station featuring <a href="https://alexanderschliker.com/?ref=superherofm.com" class='page-scroll btn btn-default'>Alexander Schliker</a>, <b>a man that flies</b>, as your host! Subject to <a href='#terms' class='page-scroll btn btn-default'>Terms</a> above the auspices of Golden Ticket, Ticket to Gold and Disabled to Gold.
+                            World's most amazing radio station featuring 
+                            <a href="https://alexanderschliker.com/?ref=superherofm.com" class='page-scroll btn btn-default'>Alexander Schliker</a>, 
+                            <b style='border-bottom:1px dashed #ccc;' title="Check your nearest government database or the internet on this; the world has seen videos and photographs."><a href='https://www.alexanderschliker.com'>a Super Hero that flies</a></b>, as your host! Subject to <a href='#terms' class='page-scroll btn btn-default'>Terms</a> above the auspices of Golden Ticket, Ticket to Gold and Disabled to Gold.
 
                         </p>
                         
