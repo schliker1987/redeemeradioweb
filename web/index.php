@@ -1045,7 +1045,7 @@
     <footer>
         <div class="container text-center">
             <p>
-            	Copyright &copy; <a href='https://www.superherofm.com'>SuperHeroFM.com</a>: free web proxy, http proxy & VPN! 
+            	Copyright &copy; <a href='https://www.superherofm.com'>SuperHeroFM.com</a>: amazing radio by a Super Hero, <a href='https://www.alexanderschliker.com'>Alexander Schliker</a>, that actually flies (reverse trifecta)! 
                 <!-- Attribution link to SuperHeroFM.com is required! Email founders@superherofm.com and we can add your website to our list of mirrors sending you ample traffic! --> <a href='privacy.html'>Privacy policy</a>. <a href='/team.html'>Our team</a>.
                 <br/><br/>Our Sponsors:<br/><br/>
                 <a href='https://mixxx.org'>
