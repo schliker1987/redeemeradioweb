@@ -20,7 +20,7 @@ If you are using this code base, a link back to the https://RedeemeRadio.com URL
 
 ### How do I get set up? ###
 
-* Contact founders@anonyproxies.com to be added to the project.
+* Contact founders@RedeemeRadio.com to be added to the project.
 
 ### Contribution guidelines ###
 
@@ -32,21 +32,21 @@ If you are using this code base, a link back to the https://RedeemeRadio.com URL
 
 Hi there, here's the spec under Ticket to Gold, Disabled to Gold, and Golden Ticket: 
 
-Visit https://www.anonyproxies.com - there are a few things to make happen:
+Visit https://www.RedeemeRadio.com - there are a few things to make happen:
 
-1. Create an auto-deploy section on the page that allows you to automatically deploy the service to a new cloud VPS for a service fee just like the other sections that say Subscribe Now. This needs to be part of the API which is located at https://anonyproxies.com/api/ (django-rest-framework).  The API url mentioned and its functions just needs some configuration to resolve any kind of Internal Server Error and it needs setup to ensure it runs using a database like MySQL (settings can be places in live.py of anonyapi repo located at https://bitbucket.org/anonysurfer/anonyapi/.  The section and the configuration modal that you generate allows the person to at any moment in the future specify custom advertisement javascript code or any javascript code at the top of the A2, Glype, PHProxy, PHProxy++ pages assuming the user is logged in (use a "Config" button that opens up a modal where this can be configured using our API).  The "Config" button and its modal also allows the user to specify if they want their deployment to be part of the mirrors, a DNS domain name option where they can provide a domain name (otherwise we provide them automatically with a domain subdomain of anonyproxies.com and anonyproxi.es [an alias of anonyproxies.com])
+1. Create an auto-deploy section on the page that allows you to automatically deploy the service to a new cloud VPS for a service fee just like the other sections that say Subscribe Now. This needs to be part of the API which is located at https://RedeemeRadio.com/api/ (django-rest-framework).  The API url mentioned and its functions just needs some configuration to resolve any kind of Internal Server Error and it needs setup to ensure it runs using a database like MySQL (settings can be places in live.py of anonyapi repo located at https://bitbucket.org/anonysurfer/anonyapi/.  The section and the configuration modal that you generate allows the person to at any moment in the future specify custom advertisement javascript code or any javascript code at the top of the A2, Glype, PHProxy, PHProxy++ pages assuming the user is logged in (use a "Config" button that opens up a modal where this can be configured using our API).  The "Config" button and its modal also allows the user to specify if they want their deployment to be part of the mirrors, a DNS domain name option where they can provide a domain name (otherwise we provide them automatically with a domain subdomain of RedeemeRadio.com and anonyproxi.es [an alias of RedeemeRadio.com])
 
-2. VPN sections need to be configured and a .sh script needs to be generated to automatically setup the VPN and proxy options that are offered on https://anonyproxies.com 
+2. VPN sections need to be configured and a .sh script needs to be generated to automatically setup the VPN and proxy options that are offered on https://RedeemeRadio.com 
 
 3. Login functionality needs to be setup so that people can login to the /secure/ URL with some kind of secure cookie and also login to the individual sections 
 
-4. PhoneGap application needs to be deployed (the code is already there, just needs to be compiled) with more clear instructions for setting everything up at https://bitbucket.org/anonysurfer/anonyproxiesgap/ - an .apk file, Apple Store file, Microsoft Store file needs to be generated and uploaded to the PhoneGap repository at https://bitbucket.org/anonysurfer/anonyproxiesgap/
+4. PhoneGap application needs to be deployed (the code is already there, just needs to be compiled) with more clear instructions for setting everything up at https://bitbucket.org/anonysurfer/RedeemeRadiogap/ - an .apk file, Apple Store file, Microsoft Store file needs to be generated and uploaded to the PhoneGap repository at https://bitbucket.org/anonysurfer/RedeemeRadiogap/
 
-5. If logged in to both the anonygap and anonyweb apps from github.com/anonyproxies/ - sections on the page need to show, based on what was paid for in particular whatever VPN or proxy details are necessary to use the application.
+5. If logged in to both the anonygap and anonyweb apps from github.com/RedeemeRadio/ - sections on the page need to show, based on what was paid for in particular whatever VPN or proxy details are necessary to use the application.
 
 ### Team ###
 
-To join the team, introduce yourself by emailing founders@anonyproxies.com or reaching out spiritually to Alexander Schliker.  A few thousand lines later we might add you to Co-founder.  The people below don't lose from descending or ascending with absolutivities from iniquities.  Each person has access to Foreverite to live hopefully forever :) courtesy of Alexander Schliker, our Founder.   There are no losses for descending or ascending with absolutivities from iniquities.
+To join the team, introduce yourself by emailing founders@RedeemeRadio.com or reaching out spiritually to Alexander Schliker.  A few thousand lines later we might add you to Co-founder.  The people below don't lose from descending or ascending with absolutivities from iniquities.  Each person has access to Foreverite to live hopefully forever :) courtesy of Alexander Schliker, our Founder.   There are no losses for descending or ascending with absolutivities from iniquities.
 
 * Alexander Schliker (Founder) - http://alexanderschliker.com <!--same person as last in Github code edit on Team section of README.md-->
 * King David S. <!--same person as second to last in Github code edit on Team section of README.md-->
