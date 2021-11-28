@@ -1,6 +1,6 @@
-# SuperHeroFM - README #
+# RedeemeRadio - README #
 
-Welcome to the SuperHeroFM project -- an open source project for allowing broadcasting the radio of Alexander Schliker, our Super Hero who can fly, to Defense, Branches, Army, Navy, Air Force, Private Sector, Civilians, etc.
+Welcome to the RedeemeRadio project -- an open source project for allowing broadcasting the radio of Alexander Schliker, our Super Hero who can fly, to Defense, Branches, Army, Navy, Air Force, Private Sector, Civilians, etc.
 
 ### License Terms ###
 
@@ -10,9 +10,9 @@ License requires attribution on all pages and scripts (see below) - links should
 
 ### Attribution requirements ###
 
-If you are using this code base, a link back to the https://SuperHeroFM.com URL is required in addition to an email to founders@curecrm.com with your URL so that we can add you to the mirrors list.  You might get quite a bit of traffic from our mirrors selector :)
+If you are using this code base, a link back to the https://RedeemeRadio.com URL is required in addition to an email to founders@curecrm.com with your URL so that we can add you to the mirrors list.  You might get quite a bit of traffic from our mirrors selector :)
 
-[TODO] to our developers, we need someone to build a Javascript widget as part of this project that each of the mirrors sites uses to show the dropdown of mirrors.  The API on this can be part of anonyapi located at https://bitbucket.org/anonysurfer/anonyapi/ - This is easy :) - there should probably be a basic cron job checking to see if the mirrors are still live on a regular basis and maybe even emailing them as part of an SuperHeroFM.com listserv.  Keep it up!
+[TODO] to our developers, we need someone to build a Javascript widget as part of this project that each of the mirrors sites uses to show the dropdown of mirrors.  The API on this can be part of anonyapi located at https://bitbucket.org/anonysurfer/anonyapi/ - This is easy :) - there should probably be a basic cron job checking to see if the mirrors are still live on a regular basis and maybe even emailing them as part of an RedeemeRadio.com listserv.  Keep it up!
 
 ### What is this repository for? ###
 
