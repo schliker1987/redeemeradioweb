@@ -4,7 +4,9 @@ Welcome to the SuperHeroFM project -- an open source project for allowing broadc
 
 ### License Terms ###
 
-https://creativecommons.org/licenses/by/4.0/ Creative Commons license, attribution required on all pages :)
+This project is open source via the Creative Commons license (CC BY-NC 3.0): https://creativecommons.org/licenses/by-nc/3.0/, excluding forking or replicating any payment functionality. Clone the Github repository and be added to our Mirrors list with ample traffice for you! Attribution required :)
+
+License requires attribution on all pages and scripts (see below) - links should point to https://redeemeradio.com.
 
 ### Attribution requirements ###
 
